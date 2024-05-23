@@ -1,7 +1,5 @@
 import data from '../data.json' assert { type: 'json' };
 
-console.log("data MAIN ", data);
-
 document.getElementsByClassName('profile__name')[0].innerHTML = data.name;
 document.getElementsByClassName('profile__title')[0].innerHTML = data.title;
 document.getElementsByClassName('profile__description')[0].innerHTML = data.description;

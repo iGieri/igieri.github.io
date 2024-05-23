@@ -1,7 +1,5 @@
 import data from '../data.json' assert { type: 'json' };
 
-console.log("data PRJ ", data);
-
 const initial = `
 <div class="container mt-4">
     <h1 class="mb-4"><a class="arrow" href="/"><i class="bi bi-arrow-left-circle"></i></a><span style="margin-left: 1rem;">Projects</span></h1>
