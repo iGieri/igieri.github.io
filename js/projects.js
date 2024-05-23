@@ -1,5 +1,3 @@
-import data from '../data.json' assert { type: 'json' };
-
 const initial = `
 <div class="container mt-4">
     <h1 class="mb-4"><a class="arrow" href="/"><i class="bi bi-arrow-left-circle"></i></a><span style="margin-left: 1rem;">Projects</span></h1>
@@ -9,11 +7,13 @@ const initial = `
 
 document.body.innerHTML = initial;
 
+fetch('../data.json')
+  .then(response => response.json())
+  .then(data => {
+    let projects = '';
 
-let projects = '';
-
-data.projects.forEach(project => {
-    projects += `<div class="col-md-4">
+    data.projects.forEach(project => {
+      projects += `<div class="col-md-4">
                     <div class="card m-3">
                         <img src="${project.logo}" class="card-img-top" alt="${project.name}">
                         <div class="card-body">
@@ -23,9 +23,10 @@ data.projects.forEach(project => {
                         </div>
                     </div>
                 </div>`;
-});
+    });
 
-
-
-document.getElementsByClassName('project__list')[0].innerHTML = projects;
-
+    document.getElementsByClassName('project__list')[0].innerHTML = projects;
+  })
+  .catch(error => {
+    console.error('Error:', error);
+  });
