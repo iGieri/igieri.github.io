@@ -1,0 +1,7 @@
+.arrow:hover,
+.arrow:link,
+.arrow:visited {
+    /* Resetting styles */
+    color: inherit;
+    text-decoration: none;
+}
