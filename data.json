@@ -17,6 +17,11 @@
             "name": "linkedin",
             "url": "https://www.linkedin.com/in/federico-gerardi-81407a1a1/",
             "color": "#0077B5"
+        },
+        {
+            "name": "discord",
+            "url": "https://discord.com/users/434382065849466893",
+            "color": "#5764f2"
         }
     ],
     "projects": [
