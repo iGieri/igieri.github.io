@@ -41,11 +41,12 @@
             "logo": "assets/trashbot.jpeg",
             "short_description": "Robot that clean cities",
             "description": "Trashbot is a robot that can clean cities from trash. It uses a camera to detect trash and a robotic arm to pick it up. It can be controlled remotely and it can be used in different scenarios."
-        },{
+        },
+        {
             "name": "CanSat Italia",
             "logo": "assets/cansat.png",
             "short_description": "Italian CanSat competition",
-            "description": "CanSat Italia is a competition where teams of students have to build a CanSat, a small satellite that has to perform a mission. The competition is organized by the Italian Space Agency and it is held every year in Italy. I have partecipated at the 2019 edition with my team and we have won the second prize."
+            "description": "CanSat Italia is a competition where teams of students have to build a CanSat, a small satellite that has to perform a mission. The competition is organized by the Italian Space Agency and it is held every year in Italy. I have partecipated at the 2019 edition with my team and we have won the second prize. Try it on <a href='https://cansat.sciencewatching.com'>https://cansat.sciencewatching.com</a>."
         }
     ]
 }
