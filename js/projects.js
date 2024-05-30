@@ -1,6 +1,6 @@
 const initial = `
 <div class="container mt-4">
-    <h1 class="mb-4"><a class="arrow" href="/"><i class="bi bi-arrow-left-circle"></i></a><span style="margin-left: 1rem;">Projects</span></h1>
+    <h1 class="mb-4 projectHeader"><button onclick="gotoHome()" class="arrow" href="/"><i class="bi bi-arrow-left-circle"></i></button><span style="margin-left: 1rem;">Projects</span></h1>
     <div class="row project__list"></div>
 </div>
 `;

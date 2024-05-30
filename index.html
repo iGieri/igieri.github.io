@@ -37,11 +37,26 @@
 
             <div class="profile__buttons">
                 <div class="link_button_container"><a href="cv.html" class="btn btn-dark link_button">CV</a></div>
-                <div class="link_button_container"><a href="projects.html" class="btn btn-dark link_button">Projects</a></div>
-            </div>
+                <div class="link_button_container"></div>
+                    <button onclick="gotoProject()" class="btn btn-dark link_button">Projects</button>
+                </div>
             
         
         </div>
+        
+        <script>
+            function gotoProject() {
+                document.querySelector('.profile__pic').classList.add('profile__pic--hidden')
+                document.querySelector('.profile__name').classList.add('profile__name--hidden')
+                document.querySelector('.profile__title').classList.add('profile__title--hidden')
+                document.querySelector('.profile__description').classList.add('profile__description--hidden')
+                document.querySelector('.profile__links').classList.add('profile__links--hidden')
+                document.querySelector('.profile__buttons').classList.add('profile__buttons--hidden')
 
+                setTimeout(() => {
+                    window.location.href = 'projects.html'
+                }, 2000)
+            }
+        </script>
     </body>
 </html>

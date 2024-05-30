@@ -32,6 +32,15 @@
                 </div>
                 `;
             }
+
+            function gotoHome() {
+                document.querySelector('.projectHeader').classList.add('projectHeader--hidden')
+                document.querySelector('.project__list').classList.add('project__list--hidden')
+
+                setTimeout(() => {
+                    window.location.href = 'index.html'
+                }, 2000)
+            }
         </script>
     </head>
     <body></body>
