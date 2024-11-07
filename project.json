@@ -1,0 +1,36 @@
+{
+    "project":[
+        {
+            "Title": "Analog Clock Reader",
+            "description_it": "Analog Clock Reader is a project that uses OpenCV to read the time from an analog clock",
+            "link": "assets/docs/clock.html",
+            "img": "assets/images/clock.png"
+        },
+        {
+            "Title": "Custom Wireless Joystick Development with Arduino and Linux Integration",
+            "description_it": "My thesis project, developed in collaboration with the Department of Computer, Control and Management Engineering of Sapienza University of Rome.",
+            "link": "assets/docs/thesis.pdf",
+            "img": "assets/images/thesis.png"
+        },
+        {
+            "Title": "DunkZone",
+            "description_it": "Social Network for NBA fans",
+            "link": "https://github.com/dunkz0ne/website",
+            "img": "assets/images/dunkzone.jpg"
+        },
+        {
+            "Title": "rizik0",
+            "description_it": "Risk board game online multiplayer",
+            "link": "https://rizik0.ovh",
+            "img": "assets/images/rizik0.png"
+        },
+        {
+            "Title": "Obesity Prediction",
+            "description_it": "Machine Learning project, that uses a lot of different algorithms to predict obesity",
+            "link": "assets/docs/obesity.html",
+            "img": "assets/images/obesity.png"
+        }
+    
+
+    ] 
+}

@@ -1,0 +1,72 @@
+{
+    "IMPORTANTE": "Mettere in alto le informazioni più recenti per ripettare l'ordine cronologico",
+    "IMPORTANT": "Put the most recent information at the top to respect the chronological order",
+    
+    "education": [
+        {
+            "school_logo": "sapienza.jpg",
+            "school_it": "Sapienza University of Rome",
+            "time_it": "2024 — Now",
+            "description_it": "Master's degree in Computer Science focused on Artificial Intelligence and Data Science"
+        },
+        {
+            "school_logo": "sapienza.jpg",
+            "school_it": "Sapienza University of Rome",
+            "time_it": "2021 — 2024",
+            "description_it": "Bachelor's degree in Computer Engineering"
+        },
+        {
+            "school_logo": "fermi.png",
+            "school_it": "Enrico Fermi Technical High School",
+            "time_it":"2016 — 2021",
+            "description_it": "High School diploma in Computer Science"
+        }
+    ],
+    "experience": [
+        {
+            "logo": "winch.webp",
+            "title_it": "Steward @ Winch",
+            "time_it": "2023 - Now",
+            "description_it": "Work as steward at Stadio Olimpico in Rome during football matches and concerts"
+        }
+    ],
+
+    "certifications": [
+        {
+            "logo": "cambridge.jpeg",
+            "title_it": "Cambridge English B2",
+            "time_it": "2021",
+            "description_it": "Certification of English language proficiency"
+        },
+        {
+            "logo": "cc.jpg",
+            "title_it": "CyberChallenge.IT",
+            "time_it": "2020",
+            "description_it": "Certification of CyberSecurity skills"
+        },
+        {
+            "logo": "mongodb.png",
+            "title_it": "MongoDB Basics M001",
+            "time_it": "2020",
+            "description_it": "Certification of CyberSecurity skills"
+        },
+        {
+            "logo": "cisco.png",
+            "title_it": "Cisco CyberSecurity Essentials",
+            "time_it": "2020",
+            "description_it": "Certification of CyberSecurity skills"
+        },
+        {
+            "logo": "cisco.png",
+            "title_it": "Cisco Introduction to CyberSecurity",
+            "time_it": "2020",
+            "description_it": "Certification of basic CyberSecurity skills"
+        },
+        {
+            "logo": "cisco.png",
+            "title_it": "Cisco IT Essentials",
+            "time_it": "2019",
+            "description_it": "Certification of basic IT skills"
+        }
+    ]
+}
